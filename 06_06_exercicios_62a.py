@@ -632,18 +632,22 @@
 #     print('\nPrograma finalizado pelo usuário sem inserção de dados')
 #     print('Fim exercicio 43\n')
 #
-#### Exercício 44 ####
-# num = int(input('\nInforme o número que encerrará a sequencia Fibonacci: '))
-# c = 0
-# a = 0
-# b = 1
-# print('0, 1', end='')
-# while c < num:
-#     c = a + b
-#     a, b = b, c
-#     print(f', {c:,}', end='')
-# print('...')
-# print('Fim exercicio 44\n')
+### Exercício 44 ####
+from time import time
+num = int(input('\nInforme o número que encerrará a sequencia Fibonacci: '))
+ini = time()
+c = 0
+a = 0
+b = 1
+print('0, 1', end='')
+while c < num:
+    c = a + b
+    a, b = b, c
+    print(f', {c:,}', end='')
+print('...')
+fim = time()
+print(f'Tempo de execução: {fim - ini}')
+print('Fim exercicio 44\n')
 
 #### Exercício 45 ####
 # print('Conversor de Km/h <=> m/s')

@@ -30,6 +30,6 @@ from colorama import init, Fore
 
 pdf = pydf.generate_pdf('<h1>Marcelo Marino</h1><br/><br/><strong>Programa&ccedil;&atilde;o em Python: Essencial</strong>')
 
-with open('test_doc.pdf', 'wb') as f:
+with open('../test_doc.pdf', 'wb') as f:
     f.write(pdf)
 

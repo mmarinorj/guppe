@@ -30,13 +30,13 @@ módulo de execução principal.
 
 
 Main -> Significa principal.
-"""
 
-from funcoes_com_parametro import soma_impares
+
+from secao08.c_funcoes_com_parametro import soma_impares
 
 
 print(soma_impares([1, 2, 3, 4, 5, 6]))
-
+"""
 
 import primeiro
 import segundo

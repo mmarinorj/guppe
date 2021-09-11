@@ -13,7 +13,7 @@ Se a gente pensar em uma função, já sabemos que temos funções que:
 - Possuem entrada mas não possuem saída;
 - Não possuem entrada mas possuem saída;
 - Possuem entrada e saída;
-"""
+
 
 
 # Refatorando uma função
@@ -113,7 +113,7 @@ print(nome_completo(sobrenome='Marques', nome='Marcia'))
 
 
 # Erro comum na utilização do return
-
+"""
 
 def soma_impares(numeros):
     total = 0
@@ -123,10 +123,13 @@ def soma_impares(numeros):
     return total
 
 
-lista = [1, 2, 3, 4, 5, 6, 7]
-print(soma_impares(lista))
+if __name__ == '__main__':
+    lista = [1, 2, 3, 4, 5, 6, 7]
+    print(soma_impares(lista))
 
-tupla = (1, 2, 3, 4, 5, 6, 7)
-print(soma_impares(tupla))
+    tupla = (1, 2, 3, 4, 5, 6, 7)
+    print(soma_impares(tupla))
+# else:                                                 # não utilizado. Feito para demonstrar a teoria na pratica.
+#     print('O módulo funções foi importado')
 
 

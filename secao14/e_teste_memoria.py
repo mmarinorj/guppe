@@ -22,6 +22,8 @@ def fib_lista(max):
         a, b = b, a + b
     return nums
 
+print(list(fib_lista(10)))
+print(fib_lista(10))
 
 # Função usando geradores
 

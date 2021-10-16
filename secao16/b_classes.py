@@ -25,7 +25,7 @@ Dica Geek: Em computação não utilizamos acentuação, caracteres especiais, e
       atributos, métodos, arquivos, diretórios etc.
 
 OBS3: Quando estamos planejando um software e definimos quais classes teremos que ter no sistema, chamamos estes objetos
-      que serã mapeados para classes de entidades.
+      que serão mapeados para classes de entidades.
 """
 
 

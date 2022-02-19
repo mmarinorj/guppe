@@ -70,6 +70,6 @@ for letra in nome:
 emoji = 'U0001F60D'
 print("\n")
 for _ in range(3):
-    for num in range(1,18):
+    for num in range(1, 18):
         print('\U0001F605' * num)
 

@@ -11,7 +11,6 @@ limpar_Tela()
 
 
 
-
 n = int(input('\nQuantas frases você deseja verificar? '))
 simbolo = ['!', '.', '?', '...']
 for i in range(n):

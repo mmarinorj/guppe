@@ -11,18 +11,18 @@ limpar_Tela()
 
 
 
-n = int(input('\nQuantas frases você deseja verificar? '))
-simbolo = ['!', '.', '?', '...']
-for i in range(n):
-    cont = 0
-    entrada = input(f'\nDigite sua {i+1}ª frase: ')
-    for i in range(len(simbolo)):
-        if simbolo[i] in entrada:
-            cont += 1
-    if cont != 0:
-        print('Frase completa')
-    else:
-        print('Frase mal elaborada')
+# n = int(input('\nQuantas frases você deseja verificar? '))
+# simbolo = ['!', '.', '?', '...']
+# for i in range(n):
+#     cont = 0
+#     entrada = input(f'\nDigite sua {i+1}ª frase: ')
+#     for i in range(len(simbolo)):
+#         if simbolo[i] in entrada:
+#             cont += 1
+#     if cont != 0:
+#         print('Frase completa')
+#     else:
+#         print('Frase mal elaborada')
 
 
 
